@@ -62,6 +62,6 @@ $(OBJ)/OB3D.o:
 	
 # Borrador
 clean:
-	rm $(OBJ)/*
-	rm $(BIN)/*
+	-rm $(OBJ)/*
+	-rm $(BIN)/*
 	
