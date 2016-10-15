@@ -1,0 +1,2 @@
+Es necesario crear una carpeta bin para guardar el ejecutable y una carpeta obj para guardar los ficheros objeto.
+O ir al makefile y modificar las variables de los directorios a la que se deseen.
