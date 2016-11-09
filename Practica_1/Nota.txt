@@ -1,2 +1,3 @@
 Es necesario crear una carpeta bin para guardar el ejecutable y una carpeta obj para guardar los ficheros objeto.
 O ir al makefile y modificar las variables de los directorios a la que se deseen.
+La parte relacionada con el poligono de n lados y dibujar las figuras en modo todo (puntos, aristas y caras) no pertenece a la práctica, sino a la defensa de la misma.
