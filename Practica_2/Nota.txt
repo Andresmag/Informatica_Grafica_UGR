@@ -1,1 +1,2 @@
-
+Nuevamente para compilar el código con el makefile subido, hace falta crear la carpeta bin para el ejecutable y la obj para los objetos que se generan, o modificar el makefile para decirle que estos archivos se guarden en el directorio deseado.
+Ademas es importarte descargar la capeta data para que pueda compilar o modificar el codigo de practica2.cpp para decirle de que directorios queremos que abra los archivos ply.
