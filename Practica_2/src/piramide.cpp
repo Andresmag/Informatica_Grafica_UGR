@@ -10,12 +10,13 @@
 
 //Constructor
 Piramide::Piramide(){
-	vector<_vertex3f> perfil_piramide(3);
+	perfil_piramide.resize(3);
 	perfil_piramide[0] = _vertex3f(0,0.5,0);
 	perfil_piramide[1] = _vertex3f(0.5,-0.5, 0);
 	perfil_piramide[2] = _vertex3f(0,-0.5,0);
-	
-	//Una vez tenemos el perfil de la piramide, lo giramos
-	
-	GenerarFigura(perfil_piramide, 4);
+}
+
+//Funcion para obtener el perfil de la piramide
+vector<_vertex3f> Piramide::getPerfil(){
+	return perfil_piramide;
 }
