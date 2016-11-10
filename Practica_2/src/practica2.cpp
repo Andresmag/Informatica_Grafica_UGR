@@ -420,6 +420,7 @@ void normal_keys(unsigned char Tecla1,int x,int y)
 		case '7':
 			if(draw_obj == 'f'){
 				especiales_rev = 'p';
+				piramide.GenerarFigura(piramide.getPerfil(), 4); //Siempre es 4 ya que si tuviese mas caras no seria una piramide
 			}
 			glutPostRedisplay();
 			break;
