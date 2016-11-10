@@ -12,9 +12,11 @@
 #include "figura_rev.h"
 
 class Piramide : public Figura_rev{
+private:
+	vector<_vertex3f> perfil_piramide;
 public:
 	Piramide();
-	
+	vector<_vertex3f> getPerfil();
 };
 
 #endif
