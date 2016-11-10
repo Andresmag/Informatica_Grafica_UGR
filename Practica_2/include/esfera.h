@@ -12,12 +12,9 @@
 #include "figura_rev.h"
 
 class Esfera : public Figura_rev{
-private:
-	vector<_vertex3f> perfil_esfera;
 public:
 	Esfera();
 	void Redimensionar(int n);
-	vector<_vertex3f> getPerfil();
 };
 
 #endif

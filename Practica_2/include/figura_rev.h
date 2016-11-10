@@ -14,7 +14,7 @@
 #define PI 3.141592654
 
 class Figura_rev : public O3D{
-private:
+protected:
 	vector<_vertex3f> figura_guardada;
 public:
 	Figura_rev();
