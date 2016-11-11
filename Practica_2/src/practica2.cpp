@@ -413,14 +413,12 @@ void normal_keys(unsigned char Tecla1,int x,int y)
 			if(draw_obj == 'f'){
 				especiales_rev = 'e';
 				esfera.Redimensionar(divisiones);
-				esfera.Modificar_divisiones(divisiones);
 			}
 			glutPostRedisplay();
 			break;
 		case '7':
 			if(draw_obj == 'f'){
 				especiales_rev = 'p';
-				piramide.Modificar_divisiones(4); //Siempre es 4 ya que si tuviese mas caras no seria una piramide
 			}
 			glutPostRedisplay();
 			break;
@@ -430,7 +428,6 @@ void normal_keys(unsigned char Tecla1,int x,int y)
 					divisiones--;
 				if(especiales_rev == 'e'){
 					esfera.Redimensionar(divisiones);
-					esfera.Modificar_divisiones(divisiones);
 				}
 				figura.Modificar_divisiones(divisiones);
 			}
@@ -441,7 +438,6 @@ void normal_keys(unsigned char Tecla1,int x,int y)
 				divisiones++;
 				if(especiales_rev == 'e'){
 					esfera.Redimensionar(divisiones);
-					esfera.Modificar_divisiones(divisiones);
 				}
 				figura.Modificar_divisiones(divisiones);
 			}

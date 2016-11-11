@@ -35,5 +35,7 @@ void Esfera::Redimensionar(int n){
 	//Y el ultimo lo introduzco a mano por el mismo motivo que el primero
 	figura_guardada[n] = _vertex3f(0,-1,0);
 	
+	Modificar_divisiones(n);
+	
 }
 	
