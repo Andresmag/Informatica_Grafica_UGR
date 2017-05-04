@@ -1,0 +1,20 @@
+//**************************************************************************
+// Práctica 3
+//
+// Andrés Molina López 2016-2017
+//
+// Implementacion de la clase Barilla
+//**************************************************************************
+
+#include "barilla.h"
+
+//Constructor
+Barilla::Barilla(){}
+
+// Funcion para dibujar el cabezal en su sitio
+voiBarilla::draw(char modo){
+	glPushMatrix();
+	glScalef(0.25,4.7,0.25);
+	barilla.draw(modo);
+	glPopMatrix();
+}
