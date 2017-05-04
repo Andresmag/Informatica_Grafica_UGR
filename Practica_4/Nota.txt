@@ -1,0 +1,3 @@
+En esta práctica falta por implementar la parte de texturas, pero la parte de iluminación funciona perfectamente.
+En el examen había que hacer que las dos luces se moviesen de manera independiente, y de la parte de texturas era pegar una
+imagen en un tablero 3x3.
