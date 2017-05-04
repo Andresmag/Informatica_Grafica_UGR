@@ -1,0 +1,3 @@
+Practica completa. Puede que tenga un fallo al hacer zoom de que se haga al reves, pero eso es solo cambiar un * por un / y viceversa.
+También falta la selecció con camara paralela porque no se pedía de manera estricta en la práctica.
+La parte del examen es la matriz de Bethoveens.
