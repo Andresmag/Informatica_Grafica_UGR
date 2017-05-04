@@ -1,0 +1,9 @@
+Nota importante.
+Como todas las prácticas son progresivas, esto quiere decir que cada una depende de las anteriores, vereis que mucho código
+se repite de unas prácticas a otras, esto es lógico por lo mencionado anteriormente. También decir que este mismo hecho hace que
+el mismo código pueda variar de una práctica a la siguiente debido a que he optimizado el modo de realizarlo de alguna manera.
+
+Por último, decir lo mismo que digo en las notas de las primera prácticas. Siempre es necesario una carpeta bin para el ejecutable,
+y una carpeta obj para los objetos que se crean al compilar. Si no, será necesario modificar el makefile que adjunto para poder
+compilarlo todo. Además, a partir de la práctica 2, la carpeta data también es necesaria para que el programa pueda encontrar
+los archivos .ply.
